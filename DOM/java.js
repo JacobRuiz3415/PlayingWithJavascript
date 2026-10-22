@@ -11,6 +11,8 @@ alert(a, typeof(a))
 alert(b, typeof(b))
 
 alert(a + b)
-button.addEventListener('click', function(){
-    alert('button was clicked!');
-});
+
+function wasClick(){
+    alert("the buttom was click")
+    document.getElementById('p2') = a + b;
+}
