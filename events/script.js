@@ -16,6 +16,7 @@ const mousePosition = (event) =>{
 
 window.addEventListener("mousemove", mousePosition, false);
 
+//change color
 container.addEventListener("mousemove",  () => {
     container.classList.add("blue");
 },
@@ -23,7 +24,7 @@ container.addEventListener("mousemove",  () => {
 );
 
 container.addEventListener(
-    "mousemove" , 
+    "mouseleave" , 
     () => {
         container.classList.remove("blue");
     },
